@@ -22,7 +22,7 @@ $(function() {
       event.preventDefault();
   
       const newBurger = {
-        burger_Name: $("#burger").val().trim(),
+        burger_name: $("#burger").val().trim(),
       };
   
       $.ajax("/api/burgers", {
