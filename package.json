@@ -7,6 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+    
+  "development" : {
+      "username": "y8621rpmj6pzoiye",
+      "password": "g7g92z357x7ge100",
+      "database": "b7vksats5t4zo22o",
+      "host": "etdq12exrvdjisg6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      "dialect": "mysql"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
