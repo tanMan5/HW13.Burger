@@ -1,0 +1,49 @@
+<h1>Eat Da Burger!</h1>
+<br><br>
+<table class="menu">
+  <tr>
+    <td>
+      <h2>Burgers on the Menu</h2>
+    </td>
+    <td>  
+      <h2>Burgers that are Devoured</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        {{#each burgers}}
+          {{#unless devoured}}
+            {{> burgers/burger-block devoured=true}}
+          {{/unless}}
+        {{/each}}
+      </ul>
+    </td>
+    <td>
+      <ul>
+        {{#each burgers}}
+          {{#if devoured}}
+            {{> burgers/burger-block devoured=false}}
+          {{/if}}
+        {{/each}}
+      </ul>
+    </td>
+  </tr>
+</table>
+<br><br>
+<table class="add">
+  <th>
+    <h2>Add a burger</h2>
+  </th>
+  <tr>
+    <td>
+    <form class="create-form">
+      <div class="form-group">
+        <label for="burger">Burger Name:</label>
+        <input type="text" id="burger" name="name">
+      </div>
+      <button type="submit">Add burger</button>
+    </form>
+    </td>
+  </tr>
+</table>
