@@ -8,3 +8,19 @@ const burger = {
       cb(res);
     });
   },
+
+  create: function(cols, vals, cb) {
+    orm.create("burgers", cols, vals, function(res) {
+      cb(res);
+    });
+  },
+
+  update: function(objColVals, condition, cb) {
+    orm.update("burgers", objColVals, condition, function(res) {
+      cb(res);
+    });
+  }
+};
+// Export these database functions
+// They will be used for controller.js
+module.exports = burger;
