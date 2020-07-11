@@ -78,3 +78,11 @@ router.post("/api/burgers", function(req, res) {
 	</button>
 </li>
 ```
+
+## Portfolio
+
+The application was also added to my portfolio.
+https://tanman5.github.io/HW2.CSS-Bootstrap/portfolio.html
+
+![Profile](/public/assets/img/profExample.gif)
+
