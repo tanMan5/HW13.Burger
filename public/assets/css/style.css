@@ -35,11 +35,11 @@ li {
   }
   
   .menu {
-    background-color: rgb(145, 238, 226);
+    background-color: rgba(49, 248, 31, 0.719);
     opacity: 80%;
   }
   
   .add {
-    background-color: rgb(235, 243, 233);
+    background-color: rgba(252, 41, 41, 0.712);
     opacity: 90%;
   }
