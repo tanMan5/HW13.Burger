@@ -7,6 +7,8 @@ The homework assignment was to design an application, "Eat Da Burger", that allo
 
 The application is deployed at https://limitless-badlands-47193.herokuapp.com/.  Below is some examples of the code and how each snippet of code works.
 
+![Heroku](/public/assets/img/appExample.gif)
+
 
 ### ORM
 
